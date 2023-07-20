@@ -1,0 +1,290 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+     width: 100%; /* Set the width of the parent element */
+  height: 100vh; 
+background-image:  url(https://images.pexels.com/photos/5044121/pexels-photo-5044121.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.topbar{
+    display: flex;
+    box-shadow: 0px 5px 10px rgba(10, 10, 10, 0.5);
+    justify-content: center;
+    background: linear-gradient(to top, rgba(74, 115, 85, 0.595), rgba(168, 223, 255, 0));
+    height: 90px;
+    padding-top: 20px;
+    padding-right: 10px;
+   justify-content: space-between;
+    align-items: center;
+    
+
+    
+}
+
+
+    
+
+
+.topbar ul li{
+   list-style-type: none;
+   display: inline-block;
+}
+.topbar ul li a{
+    text-decoration-line: none;
+    color: rgb(247, 240, 240);
+    font: bold;
+    padding: 20px;
+    text-shadow: 5px 2px 4px rgba(239, 229, 229, 0.5);
+    font-weight: bold;
+    
+ }
+ .topbar ul li a:hover{
+    color: rgba(134, 197, 134, 0.282);;
+    font-size: 30px;
+    text-shadow: none;
+    
+    
+
+ }
+
+.topbar h1{
+    
+    font-weight: bold;
+    color: aliceblue;
+    text-shadow: 5px 2px 4px rgba(239, 229, 229, 0.5);
+
+    
+}
+
+.topbar h1{
+    padding-left: 1%;
+}
+
+ .topbar button{
+    color: aliceblue;
+    background-color: transparent;
+    border-top: 0;
+    border-left: 0;
+    border-color: aliceblue;
+    border-radius: 10px;
+    width: 150px;
+    height: 30px;
+    border-width: 2px;
+    box-shadow: 5px 2px 4px rgba(239, 229, 229, 0.5);
+    
+ }  
+ .topbar button:hover{
+    background-color: rgba(134, 197, 134, 0.282);
+    box-shadow: none;
+    border: none;
+    cursor: pointer;
+ }
+.signIn{
+    
+    display: none;
+    
+    flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-content: start;
+  width: 20%;
+  height: 50vh;
+   
+    margin: auto;
+    margin-top: 70px;
+    gap: 70px;
+    box-shadow: 6px 3px 8px white;
+    background: linear-gradient(to top, rgba(74, 115, 85, 0.595), rgba(168, 223, 255, 0));
+    border-radius: 5%;
+    overflow:scroll
+   
+    
+    
+}
+.signIn .exitb{
+    display: flex;
+   justify-content: center;
+    background-color: transparent;
+    border-radius: 100;
+    width: -4%;
+    border: none;
+    text-shadow: 4px 3px 5px rgba(7, 7, 7, 0.677);
+    font-size: 30px;
+    height: auto;
+    border: 10%;
+   
+    color: rgba(51, 50, 50, 0.685);
+    margin-left: auto;
+   
+    
+   
+    
+    
+}
+.signIn.active{
+    display: flex;
+}
+
+.signIn h1{
+     display: flex;
+    color: white;
+    text-shadow: 5px 2px 4px rgba(239, 229, 229, 0.5);
+
+
+
+}
+.sandp {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+    
+}
+.sandp .sp{
+    background-color: transparent;
+    
+    border-top: none;
+  border-right: none;
+  border-left: none;
+  box-shadow: 5px 2px 4px rgba(249, 249, 249, 0.396);
+  border-bottom: 2px solid black;
+  
+}
+.sandp .sp:hover{
+    cursor: pointer;
+    border: none;
+  
+}
+ input::placeholder{
+color: white;
+} 
+.bs{
+    display: flex;
+    gap: 40px;
+}
+.conf{
+    border: 2px solid;
+    background-color: transparent;
+    border-radius: 15%;
+    box-shadow: 5px 2px 4px rgba(249, 249, 249, 0.396);
+    width: 80px;
+    height: 40px;
+    
+}  
+.conf:hover{
+    border: none;
+    background-color: rgba(134, 197, 134, 0.282);
+}
+.register{
+    border: 2px solid;
+    background-color: transparent;
+    border-radius: 15%;
+    width: 80px;
+    box-shadow: 5px 2px 4px rgba(249, 249, 249, 0.396);
+    height: 40px;
+}
+.register:hover{
+    border: none;
+    background-color: rgba(134, 197, 134, 0.282);
+}
+.reg{
+    
+    display: none;
+    
+    flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-content: start;
+  width: 20%;
+  height: 50vh;
+   
+    margin: auto;
+    margin-top: 70px;
+    gap: 50px;
+    box-shadow: 6px 3px 8px white;
+    background: linear-gradient(to top, rgba(74, 115, 85, 0.595), rgba(168, 223, 255, 0));
+    border-radius: 5%;
+    overflow:scroll
+   
+    
+    
+}
+.reg .exitbb{
+    display: flex;
+   justify-content: center;
+    background-color: transparent;
+    border-radius: 100;
+    width: -4%;
+    border: none;
+    text-shadow: 4px 3px 5px rgba(7, 7, 7, 0.677);
+    font-size: 30px;
+    height: auto;
+    border: 10%;
+   
+    color: rgba(51, 50, 50, 0.685);
+    margin-left: auto;
+   
+    
+   
+    
+    
+}
+.reg.activee{
+    display: flex;
+}
+
+.reg h1{
+     display: flex;
+    color: white;
+    text-shadow: 5px 2px 4px rgba(239, 229, 229, 0.5);
+
+
+
+}
+.sandpe {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+    
+}
+.sandpe .spr{
+    background-color: transparent;
+    
+    border-top: none;
+  border-right: none;
+  border-left: none;
+  box-shadow: 5px 2px 4px rgba(249, 249, 249, 0.396);
+  border-bottom: 2px solid black;
+  
+}
+.sandpe .spr:hover{
+    cursor: pointer;
+    border: none;
+  
+}
+ input::placeholder{
+color: white;
+} 
+.bsr{
+    display: flex;
+    gap: 40px;
+}
+
+.regpop{
+    border: 2px solid;
+    background-color: transparent;
+    border-radius: 15%;
+    width: 80px;
+    box-shadow: 5px 2px 4px rgba(249, 249, 249, 0.396);
+    height: 40px;
+}
+.register:hover{
+    border: none;
+    background-color: rgba(134, 197, 134, 0.282);
+}
+
